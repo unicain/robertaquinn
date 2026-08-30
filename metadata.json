@@ -1,0 +1,8 @@
+{
+  "name": "Roberta Quinn — Corpo & Movimento",
+  "description": "Fisioterapia, Método GYROTONIC® e Canolu no Itaim Bibi, São Paulo, e online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
