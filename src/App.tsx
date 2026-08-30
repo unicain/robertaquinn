@@ -3,8 +3,11 @@ import Hero from "./components/Hero";
 import Servicos from "./components/Servicos";
 import Diferenciais from "./components/Diferenciais";
 import SobreRoberta from "./components/SobreRoberta";
+import Espaco from "./components/Espaco";
+import Depoimentos from "./components/Depoimentos";
 import Localizacao from "./components/Localizacao";
 import FAQ from "./components/FAQ";
+import VideoFAQ from "./components/VideoFAQ";
 import Contato from "./components/Contato";
 import Footer from "./components/Footer";
 
@@ -17,8 +20,11 @@ export default function App() {
         <Servicos />
         <Diferenciais />
         <SobreRoberta />
+        <Espaco />
+        <Depoimentos />
         <Localizacao />
         <FAQ />
+        <VideoFAQ />
         <Contato />
       </main>
       <Footer />

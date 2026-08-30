@@ -4,6 +4,8 @@ const NAV_ITEMS = [
   { label: "Serviços", href: "#servicos" },
   { label: "Método", href: "#diferenciais" },
   { label: "Roberta", href: "#sobre" },
+  { label: "Espaço", href: "#espaco" },
+  { label: "Depoimentos", href: "#depoimentos" },
   { label: "Onde atendo", href: "#localizacao" },
   { label: "Dúvidas", href: "#faq" },
 ];

@@ -4,7 +4,7 @@
 export const WHATSAPP_NUMBER = "5511983479398"; // formato internacional, sem espaços/símbolos
 
 export const GOOGLE_MAPS_URL =
-  "https://www.google.com/maps/place/Cl%C3%ADnica+Roberta+Quinn:+Fisioterapia-Gyrotonic+-+Pilates+-+Canolu/data=!4m2!3m1!1s0x0:0x69588626a9b61f3f?sa=X&ved=1t:2428&ictx=111";
+  "https://share.google/DUGp4dsIOl97o1qjJ";
 
 export const INSTAGRAM_URL = "https://www.instagram.com/dr.robertaquinn/";
 

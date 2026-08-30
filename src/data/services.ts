@@ -4,44 +4,44 @@
 
 export type Service = {
   id: string;
-  grupo: "Fisioterapia e Reabilitação" | "Métodos e Especialidades" | "Formato de Atendimento";
+  grupo: "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP" | "Métodos e Especialidades" | "Formato de Atendimento";
   nome: string;
   descricao: string;
 };
 
 export const services: Service[] = [
-  // Grupo 1 — Fisioterapia e Reabilitação
+  // Grupo 1 — Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP
   {
     id: "avaliacao",
-    grupo: "Fisioterapia e Reabilitação",
+    grupo: "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP",
     nome: "Avaliação de Movimento e Postura",
     descricao:
       "Avaliação individual para entender a dor, a postura e o objetivo antes de definir o plano de atendimento.",
   },
   {
     id: "dor-lombar",
-    grupo: "Fisioterapia e Reabilitação",
+    grupo: "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP",
     nome: "Fisioterapia para Dor Lombar e Coluna",
     descricao:
       "Atendimento para dor lombar e questões de coluna, com avaliação e acompanhamento individual.",
   },
   {
     id: "pos-cirurgico",
-    grupo: "Fisioterapia e Reabilitação",
+    grupo: "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP",
     nome: "Reabilitação Pós-Cirúrgica",
     descricao:
       "Acompanhamento no retorno após cirurgia, com progressão segura do movimento.",
   },
   {
     id: "lesao-esportiva",
-    grupo: "Fisioterapia e Reabilitação",
+    grupo: "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP",
     nome: "Reabilitação de Lesão Esportiva",
     descricao:
       "Retorno à atividade física e ao esporte após lesão, com plano individual.",
   },
   {
     id: "home-office",
-    grupo: "Fisioterapia e Reabilitação",
+    grupo: "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP",
     nome: "Fisioterapia para Postura (Home Office)",
     descricao:
       "Atendimento para quem trabalha sentado, com foco em postura e rotina.",
@@ -85,7 +85,7 @@ export const services: Service[] = [
 ];
 
 export const gruposOrdenados = [
-  "Fisioterapia e Reabilitação",
+  "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP",
   "Métodos e Especialidades",
   "Formato de Atendimento",
 ] as const;
