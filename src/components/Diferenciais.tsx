@@ -1,3 +1,5 @@
+import { useTexts } from "../context/TextContext";
+
 const PONTOS = [
   {
     titulo: "Avaliação antes do plano",
@@ -22,18 +24,22 @@ const PONTOS = [
 ];
 
 export default function Diferenciais() {
+  const { t } = useTexts();
+
   return (
     <section id="diferenciais" className="bg-roxo/[0.04] py-20">
       <div className="mx-auto max-w-6xl px-6">
         <p className="text-xs font-bold uppercase tracking-[0.3em] text-coral">
-          Método
+          {t("diferenciais_eyebrow", "Método")}
         </p>
         <h2 className="mt-3 max-w-2xl font-display text-2xl text-roxo sm:text-3xl">
-          Fisioterapia, GYROTONIC® e Canolu como parte de um mesmo raciocínio
-          de movimento
+          {t(
+            "diferenciais_title",
+            "Fisioterapia, GYROTONIC® e Canolu como parte de um mesmo raciocínio de movimento"
+          )}
         </h2>
 
-        <div className="mt-12 grid gap-8 sm:grid-cols-2">
+         <div className="mt-12 grid gap-8 sm:grid-cols-2">
           {PONTOS.map((ponto, i) => (
             <div key={ponto.titulo} className="flex gap-5">
               <span className="font-display text-3xl text-coral/40">
@@ -41,10 +47,10 @@ export default function Diferenciais() {
               </span>
               <div>
                 <h3 className="font-display text-base text-roxo">
-                  {ponto.titulo}
+                  {t(`diferenciais_item_${i}_titulo`, ponto.titulo)}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink/70">
-                  {ponto.texto}
+                  {t(`diferenciais_item_${i}_texto`, ponto.texto)}
                 </p>
               </div>
             </div>
@@ -54,3 +60,4 @@ export default function Diferenciais() {
     </section>
   );
 }
+

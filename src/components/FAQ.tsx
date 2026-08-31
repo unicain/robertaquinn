@@ -1,3 +1,5 @@
+import { useTexts } from "../context/TextContext";
+
 const PERGUNTAS = [
   {
     pergunta: "Preciso de encaminhamento médico para agendar?",
@@ -27,26 +29,28 @@ const PERGUNTAS = [
 ];
 
 export default function FAQ() {
+  const { t } = useTexts();
+
   return (
     <section id="faq" className="mx-auto max-w-3xl px-6 py-20">
       <p className="text-xs font-bold uppercase tracking-[0.3em] text-coral">
-        Dúvidas frequentes
+        {t("faq_eyebrow", "Dúvidas frequentes")}
       </p>
       <h2 className="mt-3 font-display text-2xl text-roxo sm:text-3xl">
-        Antes de agendar
+        {t("faq_title", "Antes de agendar")}
       </h2>
 
       <div className="mt-10 divide-y divide-roxo/10">
-        {PERGUNTAS.map((item) => (
+        {PERGUNTAS.map((item, i) => (
           <details key={item.pergunta} className="group py-5">
             <summary className="flex cursor-pointer list-none items-center justify-between font-display text-base text-roxo">
-              {item.pergunta}
+              {t(`faq_item_${i}_pergunta`, item.pergunta)}
               <span className="ml-4 text-coral transition-transform group-open:rotate-45">
                 +
               </span>
             </summary>
             <p className="mt-3 text-sm leading-relaxed text-ink/70">
-              {item.resposta}
+              {t(`faq_item_${i}_resposta`, item.resposta)}
             </p>
           </details>
         ))}
@@ -54,3 +58,4 @@ export default function FAQ() {
     </section>
   );
 }
+

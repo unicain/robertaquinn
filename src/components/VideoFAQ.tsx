@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Play, X, Video, Sparkles, HelpCircle } from "lucide-react";
+import { useTexts } from "../context/TextContext";
 
 interface ShortVideo {
   id: string;
@@ -61,6 +62,7 @@ const SHORTS: ShortVideo[] = [
 
 export default function VideoFAQ() {
   const [activeVideoId, setActiveVideoId] = useState<string | null>(null);
+  const { t } = useTexts();
 
   return (
     <section id="video-faq" className="bg-cream-light py-20 text-ink">
@@ -70,15 +72,19 @@ export default function VideoFAQ() {
         <div className="text-center max-w-2xl mx-auto">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-roxo/5 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-roxo">
             <Video className="h-3 w-3" />
-            Dra. Roberta Responde
+            {t("video_faq_eyebrow", "Dra. Roberta Responde")}
           </span>
           <h2 className="mt-4 font-display text-3xl leading-tight text-roxo sm:text-4xl">
-            FAQ em Vídeo
+            {t("video_faq_title", "FAQ em Vídeo")}
           </h2>
           <p className="mt-4 text-sm text-ink/70">
-            Assista a explicações dinâmicas e dicas práticas da Dra. Roberta Quinn diretamente do YouTube Shorts. Clique para dar o play!
+            {t(
+              "video_faq_subtitle",
+              "Assista a explicações dinâmicas e dicas práticas da Dra. Roberta Quinn diretamente do YouTube Shorts. Clique para dar o play!"
+            )}
           </p>
         </div>
+
 
         {/* Grade de Vídeos (Shorts) */}
         <div className="mt-12 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

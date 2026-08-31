@@ -1,7 +1,9 @@
 import { Play, Sparkles, PhoneCall } from "lucide-react";
 import { whatsappLink } from "../data/site";
+import { useTexts } from "../context/TextContext";
 
 export default function Espaco() {
+  const { t } = useTexts();
   const videoEmbedUrl = "https://drive.google.com/file/d/18blY9g5HaRIWyChFTmfViMqcQnIJYgF1/preview";
 
   return (
@@ -23,19 +25,25 @@ export default function Espaco() {
           <div className="order-2 md:order-1">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-coral/10 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-coral">
               <Sparkles className="h-3 w-3" />
-              Tour Virtual
+              {t("espaco_eyebrow", "Tour Virtual")}
             </span>
             
             <h2 className="mt-4 font-display text-3xl leading-tight text-roxo sm:text-4xl">
-              Conheça o nosso Espaço
+              {t("espaco_title", "Conheça o nosso Espaço")}
             </h2>
             
             <p className="mt-6 text-base leading-relaxed text-ink/80 md:text-lg">
-              Um ambiente acolhedor, projetado exclusivamente para o seu bem-estar, reabilitação e desenvolvimento corporal. Localizado no coração do Itaim Bibi, em São Paulo, o nosso espaço oferece infraestrutura completa com equipamentos de última geração do Método GYROTONIC® e todos os recursos necessários para sessões integradas de Fisioterapia e Canolu.
+              {t(
+                "espaco_desc_1",
+                "Um ambiente acolhedor, projetado exclusivamente para o seu bem-estar, reabilitação e desenvolvimento corporal. Localizado no coração do Itaim Bibi, em São Paulo, o nosso espaço oferece infraestrutura completa com equipamentos de última geração do Método GYROTONIC® e todos os recursos necessários para sessões integradas de Fisioterapia e Canolu."
+              )}
             </p>
             
             <p className="mt-4 text-sm leading-relaxed text-ink/70">
-              Aqui, cada atendimento é individualizado e focado nas suas necessidades específicas. Unimos a precisão da biomecânica clínica com a fluidez do movimento inteligente para ajudar você a conquistar um corpo livre de dores, com mais flexibilidade e consciência postural.
+              {t(
+                "espaco_desc_2",
+                "Aqui, cada atendimento é individualizado e focado nas suas necessidades específicas. Unimos a precisão da biomecânica clínica com a fluidez do movimento inteligente para ajudar você a conquistar um corpo livre de dores, com mais flexibilidade e consciência postural."
+              )}
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -46,16 +54,17 @@ export default function Espaco() {
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-coral px-8 py-4 text-sm font-bold text-cream shadow-lg shadow-coral/20 transition-transform hover:scale-105"
               >
                 <PhoneCall className="h-4 w-4" />
-                Agendar sessão e visita
+                {t("espaco_cta_whatsapp", "Agendar sessão e visita")}
               </a>
               <a
                 href="#localizacao"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-roxo/10 bg-roxo/[0.02] px-8 py-4 text-sm font-bold text-roxo transition-colors hover:bg-roxo/5"
               >
-                Ver localização no Itaim Bibi
+                {t("espaco_cta_maps", "Ver localização no Itaim Bibi")}
               </a>
             </div>
           </div>
+
 
           {/* Coluna do Vídeo (Mockup de Smartphone Vertical) */}
           <div className="order-1 flex justify-center md:order-2">

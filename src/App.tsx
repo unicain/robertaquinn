@@ -11,25 +11,28 @@ import FAQ from "./components/FAQ";
 import VideoFAQ from "./components/VideoFAQ";
 import Contato from "./components/Contato";
 import Footer from "./components/Footer";
+import { TextProvider } from "./context/TextContext";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-cream text-ink antialiased">
-      <Header />
-      <main>
-        <Hero />
-        <Servicos />
-        <Diferenciais />
-        <SobreRoberta />
-        <Espaco />
-        <Depoimentos />
-        <DepoimentosVideo />
-        <Localizacao />
-        <FAQ />
-        <VideoFAQ />
-        <Contato />
-      </main>
-      <Footer />
-    </div>
+    <TextProvider>
+      <div className="min-h-screen bg-cream text-ink antialiased">
+        <Header />
+        <main>
+          <Hero />
+          <Servicos />
+          <Diferenciais />
+          <SobreRoberta />
+          <Espaco />
+          <Depoimentos />
+          <DepoimentosVideo />
+          <Localizacao />
+          <FAQ />
+          <VideoFAQ />
+          <Contato />
+        </main>
+        <Footer />
+      </div>
+    </TextProvider>
   );
 }
