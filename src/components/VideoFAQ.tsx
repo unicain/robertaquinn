@@ -10,25 +10,25 @@ interface ShortVideo {
 
 const SHORTS: ShortVideo[] = [
   {
-    id: "XyYSEgkLWLw",
+    id: "8aT9inpt5Uk",
     pergunta: "Por que escolher o Método GYROTONIC®?",
     categoria: "Gyrotonic",
     thumbnailUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=400&q=80",
   },
   {
-    id: "FgIcO775RQk",
+    id: "oe_r0jk7LEY",
     pergunta: "A importância da avaliação postural individualizada",
     categoria: "Fisioterapia",
     thumbnailUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=400&q=80",
   },
   {
-    id: "CBmmcgP4aQo",
+    id: "6fGgP7g0Jmw",
     pergunta: "Como aliviar a tensão nos ombros e pescoço?",
     categoria: "Dores",
     thumbnailUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=400&q=80",
   },
   {
-    id: "CKOLBTZYXqk",
+    id: "90GpmiPvSaA",
     pergunta: "Fisioterapia do Movimento vs. Convencional",
     categoria: "Fisioterapia",
     thumbnailUrl: "https://images.unsplash.com/photo-1597452221884-12ec247f8b95?auto=format&fit=crop&w=400&q=80",
@@ -40,7 +40,7 @@ const SHORTS: ShortVideo[] = [
     thumbnailUrl: "https://images.unsplash.com/photo-1519823551278-64ac9283ca47?auto=format&fit=crop&w=400&q=80",
   },
   {
-    id: "90GpmiPvSaA",
+    id: "CKOLBTZYXqk",
     pergunta: "Gyrotonic® serve para reabilitação de coluna?",
     categoria: "Gyrotonic",
     thumbnailUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&q=80",
@@ -52,7 +52,7 @@ const SHORTS: ShortVideo[] = [
     thumbnailUrl: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=400&q=80",
   },
   {
-    id: "kRi9qnYLIyY",
+    id: "CBmmcgP4aQo",
     pergunta: "Como reeducar sua postura no dia a dia?",
     categoria: "Dicas",
     thumbnailUrl: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=400&q=80",

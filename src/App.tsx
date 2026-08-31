@@ -5,6 +5,7 @@ import Diferenciais from "./components/Diferenciais";
 import SobreRoberta from "./components/SobreRoberta";
 import Espaco from "./components/Espaco";
 import Depoimentos from "./components/Depoimentos";
+import DepoimentosVideo from "./components/DepoimentosVideo";
 import Localizacao from "./components/Localizacao";
 import FAQ from "./components/FAQ";
 import VideoFAQ from "./components/VideoFAQ";
@@ -22,6 +23,7 @@ export default function App() {
         <SobreRoberta />
         <Espaco />
         <Depoimentos />
+        <DepoimentosVideo />
         <Localizacao />
         <FAQ />
         <VideoFAQ />
