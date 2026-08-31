@@ -14,7 +14,7 @@ export default function SobreRoberta() {
           <div className="relative">
             <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl bg-neutral-100 shadow-lg border border-roxo/10">
               <img
-                src="/roberta.png"
+                src="roberta.png"
                 alt="Dra. Roberta Quinn"
                 referrerPolicy="no-referrer"
                 className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.45]"
