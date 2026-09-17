@@ -90,11 +90,11 @@ export const TextProvider: React.FC<{ children: React.ReactNode }> = ({ children
       return;
     }
 
-    const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/pub?output=csv`;
+    const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/pub?output=csv&_t=${Date.now()}`;
 
     const fetchTexts = async () => {
       try {
-        const response = await fetch(csvUrl);
+        const response = await fetch(csvUrl, { cache: "no-store" });
         if (!response.ok) throw new Error("Erro ao carregar dados da planilha");
         const csvText = await response.text();
         const rows = parseCSV(csvText);
