@@ -90,7 +90,7 @@ export const TextProvider: React.FC<{ children: React.ReactNode }> = ({ children
       return;
     }
 
-    const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/pub?output=csv&_t=${Date.now()}`;
+    const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv&_t=${Date.now()}`;
 
     const fetchTexts = async () => {
       try {
