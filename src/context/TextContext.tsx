@@ -82,7 +82,7 @@ export const TextProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [loading, setLoading] = useState<boolean>(true);
 
   // ID padrão da planilha Google Sheets. O usuário pode alterar em .env ou em site.ts
-  const sheetId = import.meta.env.VITE_GOOGLE_SHEET_ID || "1W2vD8VqD1VzU6RzW_I_yZ_t5xM3N_eS_L-9m5Y-E0_Q"; // ID Provisório de exemplo
+  const sheetId = import.meta.env.VITE_GOOGLE_SHEET_ID || "1_c63ygYQKtvqAQwvNrLoCfNck3_keEUTKLzrYm7IwUs"; // ID Provisório de exemplo
 
   useEffect(() => {
     if (!sheetId || sheetId === "YOUR_SHEET_ID_HERE") {
