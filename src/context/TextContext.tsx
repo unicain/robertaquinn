@@ -97,6 +97,14 @@ export const TextProvider: React.FC<{ children: React.ReactNode }> = ({ children
         const response = await fetch(csvUrl, { cache: "no-store" });
         if (!response.ok) throw new Error("Erro ao carregar dados da planilha");
         const csvText = await response.text();
+
+        // Se o Google Sheets retornar HTML, significa que o link está privado e exige login
+        if (csvText.includes("<html") || csvText.includes("<!DOCTYPE") || csvText.includes("google-sans")) {
+          throw new Error(
+            "A planilha está PRIVADA ou exige LOGIN do Google. Por favor, acesse a planilha, clique em 'Compartilhar' e mude o acesso geral para 'Qualquer pessoa com o link' (como Leitor), ou verifique se ela foi de fato publicada em Arquivo > Compartilhar > Publicar na Web como CSV."
+          );
+        }
+
         const rows = parseCSV(csvText);
 
         const dictionary: TextDictionary = {};
