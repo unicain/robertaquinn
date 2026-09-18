@@ -71,6 +71,10 @@ Aqui está a lista de chaves (`id`) que a Dra. Roberta pode colocar na primeira 
 | **service_item_avaliacao_desc** | Serviços | Descrição do serviço Avaliação de Movimento |
 | **service_item_dor-lombar_nome** | Serviços | Nome do serviço Fisioterapia para Dor Lombar |
 | **service_item_dor-lombar_desc** | Serviços | Descrição do serviço Fisioterapia para Dor Lombar |
+| **service_item_dtm_nome** | Serviços | Nome do serviço Bruxismo, DTM e Dor na Mandíbula |
+| **service_item_dtm_desc** | Serviços | Descrição do serviço Bruxismo, DTM e Dor na Mandíbula |
+| **service_item_cervical_nome** | Serviços | Nome do serviço Fisioterapia para Dor Cervical e Ombros |
+| **service_item_cervical_desc** | Serviços | Descrição do serviço Fisioterapia para Dor Cervical e Ombros |
 | **service_item_pos-cirurgico_nome** | Serviços | Nome do serviço Reabilitação Pós-Cirúrgica |
 | **service_item_pos-cirurgico_desc** | Serviços | Descrição do serviço Reabilitação Pós-Cirúrgica |
 | **service_item_lesao-esportiva_nome** | Serviços | Nome do serviço Reabilitação de Lesão Esportiva |

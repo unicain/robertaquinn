@@ -26,6 +26,20 @@ export const services: Service[] = [
       "Atendimento para dor lombar e questões de coluna, com avaliação e acompanhamento individual.",
   },
   {
+    id: "dtm",
+    grupo: "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP",
+    nome: "Bruxismo, DTM e Dor na Mandíbula",
+    descricao:
+      "Tratamento de dores faciais, travamento articular, apertamento dental e dores de cabeça associadas.",
+  },
+  {
+    id: "cervical",
+    grupo: "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP",
+    nome: "Fisioterapia para Dor Cervical e Ombros",
+    descricao:
+      "Alívio de cefaleias cervicogênicas, rigidez do pescoço e tensão acumulada na região do trapézio.",
+  },
+  {
     id: "pos-cirurgico",
     grupo: "Fisioterapia e Reabilitação no Itaim Bibi, em São Paulo, SP",
     nome: "Reabilitação Pós-Cirúrgica",
