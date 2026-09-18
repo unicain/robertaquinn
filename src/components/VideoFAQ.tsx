@@ -46,18 +46,6 @@ const SHORTS: ShortVideo[] = [
     categoria: "Gyrotonic",
     thumbnailUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&q=80",
   },
-  {
-    id: "8aT9inpt5Uk",
-    pergunta: "Dica rápida para mobilidade matinal",
-    categoria: "Dicas",
-    thumbnailUrl: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=400&q=80",
-  },
-  {
-    id: "CBmmcgP4aQo",
-    pergunta: "Como reeducar sua postura no dia a dia?",
-    categoria: "Dicas",
-    thumbnailUrl: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=400&q=80",
-  },
 ];
 
 export default function VideoFAQ() {
@@ -66,7 +54,7 @@ export default function VideoFAQ() {
 
   return (
     <section id="video-faq" className="bg-cream-light py-20 text-ink">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-5xl px-6">
         
         {/* Cabeçalho da Seção */}
         <div className="text-center max-w-2xl mx-auto">
@@ -87,7 +75,7 @@ export default function VideoFAQ() {
 
 
         {/* Grade de Vídeos (Shorts) */}
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {SHORTS.map((video) => (
             <div
               key={video.id}
