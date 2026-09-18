@@ -226,58 +226,6 @@ export default function SobreRoberta() {
 
         </div>
 
-        {/* Faixa Horizontal de Diferenciais Elegante e Minimalista */}
-        <div className="mt-16 border-t border-b border-roxo/10 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-around gap-8 text-center md:text-left">
-            
-            {/* Diferencial 1 */}
-            <div className="flex flex-col sm:flex-row items-center gap-3">
-              <Award className="h-5 w-5 text-coral flex-shrink-0" />
-              <div>
-                <span className="block font-display text-sm font-bold text-roxo">
-                  {t("about_highlight_1_val", "Master Trainer")}
-                </span>
-                <span className="text-[10px] text-ink/60 uppercase font-bold tracking-wider block">
-                  {t("about_highlight_1_lbl", "Gyrotonic® System")}
-                </span>
-              </div>
-            </div>
-
-            {/* Separador sutil no Desktop */}
-            <div className="hidden md:block h-8 w-px bg-roxo/10" />
-
-            {/* Diferencial 2 */}
-            <div className="flex flex-col sm:flex-row items-center gap-3">
-              <GraduationCap className="h-5 w-5 text-coral flex-shrink-0" />
-              <div>
-                <span className="block font-display text-sm font-bold text-roxo">
-                  {t("about_highlight_2_val", "Reabilitação")}
-                </span>
-                <span className="text-[10px] text-ink/60 uppercase font-bold tracking-wider block">
-                  {t("about_highlight_2_lbl", "Alemanha & Brasil")}
-                </span>
-              </div>
-            </div>
-
-            {/* Separador sutil no Desktop */}
-            <div className="hidden md:block h-8 w-px bg-roxo/10" />
-
-            {/* Diferencial 3 */}
-            <div className="flex flex-col sm:flex-row items-center gap-3">
-              <CheckCircle2 className="h-5 w-5 text-coral flex-shrink-0" />
-              <div>
-                <span className="block font-display text-sm font-bold text-roxo">
-                  {t("about_highlight_3_val", "Movimento")}
-                </span>
-                <span className="text-[10px] text-ink/60 uppercase font-bold tracking-wider block">
-                  {t("about_highlight_3_lbl", "Qualidade de Vida")}
-                </span>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
       </div>
     </section>
   );
