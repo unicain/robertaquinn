@@ -5,7 +5,16 @@ import { useTexts } from "../context/TextContext";
 
 export default function SobreRoberta() {
   const [activeTab, setActiveTab] = useState<"historia" | "formacao">("historia");
+  const [imageSrc, setImageSrc] = useState("roberta_elite.png");
+  const [isFallback, setIsFallback] = useState(false);
   const { t } = useTexts();
+
+  const handleImageError = () => {
+    if (!isFallback) {
+      setImageSrc("roberta.png");
+      setIsFallback(true);
+    }
+  };
 
   return (
     <section id="sobre" className="mx-auto max-w-6xl px-6 py-20">
@@ -14,17 +23,24 @@ export default function SobreRoberta() {
         {/* Lado Esquerdo: Imagem da Roberta com Destaques */}
         <div className="sticky top-24">
           <div className="relative">
-            <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl bg-neutral-100 shadow-lg border border-roxo/10">
+            <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl bg-gradient-to-br from-[#FAF8F5] via-[#FAF8F5] to-coral/15 shadow-lg border border-roxo/10 flex items-center justify-center">
               <img
-                src="roberta.png"
+                src={imageSrc}
                 alt="Dra. Roberta Quinn"
                 referrerPolicy="no-referrer"
-                className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.45]"
-                style={{
-                  objectPosition: "82% 20%",
-                  transform: "scale(1.4)",
-                  transformOrigin: "82% 20%",
-                }}
+                onError={handleImageError}
+                className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.1]"
+                style={
+                  isFallback
+                    ? {
+                        objectPosition: "82% 20%",
+                        transform: "scale(1.4)",
+                        transformOrigin: "82% 20%",
+                      }
+                    : {
+                        objectPosition: "center center",
+                      }
+                }
               />
             </div>
             <div
