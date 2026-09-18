@@ -26,6 +26,11 @@ const PERGUNTAS = [
     resposta:
       "Começa com uma avaliação de movimento e postura, para entender a queixa e o objetivo antes de propor qualquer plano de atendimento.",
   },
+  {
+    pergunta: "Qual a diferença entre a Simetria Craniomandibular e o GYROTONIC®?",
+    resposta:
+      "São abordagens complementares e integradas. A Simetria Craniomandibular é uma terapia manual passiva realizada na maca, composta por 26 manobras craniofasciais que realinham o eixo da cabeça, mandíbula e cervical. O GYROTONIC® é um trabalho ativo de movimento tridimensional (circular e em espirais) que desenvolve força, flexibilidade e consciência corporal. Primeiro organizamos o eixo do corpo de forma passiva; depois, gravamos essa nova postura através do movimento ativo.",
+  },
 ];
 
 export default function FAQ() {

@@ -133,6 +133,8 @@ Aqui está a lista de chaves (`id`) que a Dra. Roberta pode colocar na primeira 
 | **faq_item_3_resposta** | FAQ | Resposta 4: *"Sim, com progressão segura..."* |
 | **faq_item_4_pergunta** | FAQ | Pergunta 5: *"Como funciona a primeira consulta?"* |
 | **faq_item_4_resposta** | FAQ | Resposta 5: *"Começa com uma avaliação..."* |
+| **faq_item_5_pergunta** | FAQ | Pergunta 6: *"Qual a diferença entre a Simetria Craniomandibular e o GYROTONIC®?"* |
+| **faq_item_5_resposta** | FAQ | Resposta 6: *"São abordagens complementares..."* |
 | **video_faq_eyebrow** | Vídeo FAQ | Selo superior: *"Dra. Roberta Responde"* |
 | **video_faq_title** | Vídeo FAQ | Título principal: *"FAQ em Vídeo"* |
 | **video_faq_subtitle** | Vídeo FAQ | Subtítulo descritivo dos shorts de vídeo |
