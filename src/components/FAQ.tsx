@@ -36,6 +36,11 @@ const PERGUNTAS = [
     resposta:
       "Sim, todos os nossos atendimentos de fisioterapia acompanham a emissão de Nota Fiscal. Você poderá utilizá-la tanto para solicitar o reembolso integral ou parcial diretamente junto ao seu plano de saúde (convênio) quanto para realizar a dedução legal na sua declaração anual de Imposto de Renda.",
   },
+  {
+    pergunta: "Como o tratamento atua na dor crônica e em doenças crônicas?",
+    resposta:
+      "Tratar a dor crônica e doenças crônicas de forma convencional é um grande desafio. Ao longo de anos de prática clínica, observamos que o método GYROTONIC® atua no alívio da dor crônica em tempo recorde. Quando associado à Simetria Craniomandibular, conseguimos tratar até os casos mais complexos. Isso acontece porque a combinação das duas técnicas atua diretamente na reprogramação do comando cerebral e do sistema nervoso central (modulando respostas neurofisiológicas e promovendo alterações profundas de adaptação e regeneração). É um tratamento que reorganiza a estrutura física e restabelece a saúde integral de forma definitiva.",
+  },
 ];
 
 export default function FAQ() {
