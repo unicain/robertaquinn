@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Servicos from "./components/Servicos";
 import Diferenciais from "./components/Diferenciais";
 import SobreRoberta from "./components/SobreRoberta";
+import Equipe from "./components/Equipe";
 import Espaco from "./components/Espaco";
 import Depoimentos from "./components/Depoimentos";
 import DepoimentosVideo from "./components/DepoimentosVideo";
@@ -23,6 +24,7 @@ export default function App() {
           <Servicos />
           <Diferenciais />
           <SobreRoberta />
+          <Equipe />
           <Espaco />
           <Depoimentos />
           <DepoimentosVideo />
