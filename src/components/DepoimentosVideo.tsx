@@ -105,7 +105,7 @@ export default function DepoimentosVideo() {
         </div>
 
         {/* Grade de Vídeos de Depoimentos (Formato Reels / Stories) */}
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-center">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-center">
           {VIDEO_TESTIMONIALS.map((video) => (
             <div
               key={video.nome}
