@@ -31,6 +31,11 @@ const PERGUNTAS = [
     resposta:
       "São abordagens complementares e integradas. A Simetria Craniomandibular é uma terapia manual passiva realizada na maca, composta por 26 manobras craniofasciais que realinham o eixo da cabeça, mandíbula e cervical. O GYROTONIC® é um trabalho ativo de movimento tridimensional (circular e em espirais) que desenvolve força, flexibilidade e consciência corporal. Primeiro organizamos o eixo do corpo de forma passiva; depois, gravamos essa nova postura através do movimento ativo.",
   },
+  {
+    pergunta: "Vocês emitem nota fiscal para reembolso de convênio ou imposto de renda?",
+    resposta:
+      "Sim, todos os nossos atendimentos de fisioterapia acompanham a emissão de Nota Fiscal. Você poderá utilizá-la tanto para solicitar o reembolso integral ou parcial diretamente junto ao seu plano de saúde (convênio) quanto para realizar a dedução legal na sua declaração anual de Imposto de Renda.",
+  },
 ];
 
 export default function FAQ() {
