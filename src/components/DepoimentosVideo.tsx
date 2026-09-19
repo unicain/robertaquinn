@@ -63,6 +63,13 @@ const VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     resumo: "Como a simetria craniana e o Gyrotonic podem proporcionar um alinhamento vibracional.",
     thumbnailUrl: "anne_wilians.png",
   },
+  {
+    id: "DagBBi7sxPV",
+    nome: "Isa Zanata",
+    tratamento: "Nossa atleta de Alto rendimento do Nado Artístico",
+    resumo: "Se o esporte faz movimentos circulares o treino precisa ser funcional ao esporte.",
+    thumbnailUrl: "isa_zanata.png",
+  },
 ];
 
 export default function DepoimentosVideo() {
