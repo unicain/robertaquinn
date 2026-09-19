@@ -33,14 +33,14 @@ const VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     nome: "Ana Paula Carneiro",
     tratamento: "Alívio na tensão da mandíbula",
     resumo: "Trabalho Craniofascial para Simetria Crânio-Mandibular, com melhora significativa na mobilidade, na tensão e no conforto ao mastigar e falar.",
-    thumbnailUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=400&q=80",
+    thumbnailUrl: "roberta_ana_p_carneiro.jpeg",
   },
   {
     id: "DXoNT_-DFxm",
     nome: "Atriz Alexandra Martins",
     tratamento: "O método Gyrotonic",
     resumo: "Relato de uma paciente sobre os benefícios do Gyrotonic aplicado pela Dra. Roberta Quinn.",
-    thumbnailUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=400&q=80",
+    thumbnailUrl: "roberta_alexandra_martins.jpeg",
   },
   {
     id: "DXjRwf0jKui",
@@ -54,14 +54,14 @@ const VIDEO_TESTIMONIALS: VideoTestimonial[] = [
     nome: "Jornalista Cristina Vieira",
     tratamento: "Movimento, consciência corporal e cuidado profundo",
     resumo: "A querida Cristina Viera, apresentadora do Globo Rural, compartilha sua experiência com o trabalho que desenvolvo um encontro entre movimento, consciência corporal e cuidado profundo no seu Pré e Pós Natal com o Método Gyrotonic.",
-    thumbnailUrl: "https://images.unsplash.com/photo-1763198302243-51142ba5b24a?auto=format&fit=crop&w=400&q=80",
+    thumbnailUrl: "roberta_ jornalista_cris.jpeg",
   },
   {
     id: "DMu5ns_uWXt",
     nome: "Anne Wilians",
     tratamento: "Método Simetria Craniana e Método Gyrotonic",
     resumo: "Como a simetria craniana e o Gyrotonic podem proporcionar um alinhamento vibracional.",
-    thumbnailUrl: "https://images.unsplash.com/photo-1781804260231-ed529f7c2a1e?auto=format&fit=crop&w=400&q=80",
+    thumbnailUrl: "anne_wilians.png",
   },
 ];
 
