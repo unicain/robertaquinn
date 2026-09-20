@@ -32,19 +32,19 @@ const SHORTS: ShortVideo[] = [
     id: "CBmmcgP4aQo",
     pergunta: "Quem pode usar o Gyrotonic",
     categoria: "Gyrotonic",
-    thumbnailUrl: "https://images.unsplash.com/photo-1597452221884-12ec247f8b95?auto=format&fit=crop&w=400&q=80",
+    thumbnailUrl: "quem_pode_usar.png",
   },
   {
     id: "CKOLBTZYXqk",
     pergunta: "Como o Método Gyrotonic foi criado",
     categoria: "Gyrotonic",
-    thumbnailUrl: "https://images.unsplash.com/photo-1519823551278-64ac9283ca47?auto=format&fit=crop&w=400&q=80",
+    thumbnailUrl: "como_foi_criado.png",
   },
   {
     id: "8aT9inpt5Uk",
     pergunta: "O Gyrotonic® é indicado para que tipos de reabilitação?",
     categoria: "Gyrotonic",
-    thumbnailUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&q=80",
+    thumbnailUrl: "tipo_reabilitacao.png",
   },
 ];
 
