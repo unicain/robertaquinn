@@ -44,10 +44,10 @@ const VIDEO_TESTIMONIALS: VideoTestimonial[] = [
   },
   {
     id: "DXjRwf0jKui",
-    nome: "Instrutor Tiago Ogava",
+    nome: "Instrutor Thiago Ogava",
     tratamento: "Dores na lombar, escápula e limitação dos movimentos",
     resumo: "Thiago Ogava, instrutor de golf, chegou com dores na lombar e na escápula limitações reais que impediam um swing completo.",
-    thumbnailUrl: "https://images.unsplash.com/photo-1591491640784-3232eb748d4b?auto=format&fit=crop&w=400&q=80",
+    thumbnailUrl: "tiago_ogava.png",
   },
   {
     id: "DW4AUpKjDH5",
