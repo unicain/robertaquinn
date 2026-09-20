@@ -30,13 +30,13 @@ const SHORTS: ShortVideo[] = [
   },
   {
     id: "CBmmcgP4aQo",
-    pergunta: "Quem pode usar o Gyrotonic",
+    pergunta: "Quem pode usar o GYROTONIC®?",
     categoria: "Gyrotonic",
     thumbnailUrl: "quem_pode_usar.png",
   },
   {
     id: "CKOLBTZYXqk",
-    pergunta: "Como o Método Gyrotonic foi criado",
+    pergunta: "Como o Método GYROTONIC® foi criado",
     categoria: "Gyrotonic",
     thumbnailUrl: "como_foi_criado.png",
   },
